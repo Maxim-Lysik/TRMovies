@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Maxoyni/Desktop/moviesapp/app/src/main/res/drawable-v24/bg_corners_radius2.xml" value="0.1795" />
+        <entry key="..\:/Users/Maxoyni/Desktop/moviesapp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.206" />
+        <entry key="..\:/Users/Maxoyni/Desktop/moviesapp/app/src/main/res/drawable/bg_corners_radius.xml" value="0.136" />
+        <entry key="..\:/Users/Maxoyni/Desktop/moviesapp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.206" />
+        <entry key="..\:/Users/Maxoyni/Desktop/moviesapp/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.206" />
+        <entry key="..\:/Users/Maxoyni/Desktop/moviesapp/app/src/main/res/drawable/searchview_background.xml" value="0.2605" />
+        <entry key="..\:/Users/Maxoyni/Desktop/moviesapp/app/src/main/res/layout/activity_main.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Maxoyni/Desktop/moviesapp/app/src/main/res/layout/activity_network_request.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Maxoyni/Desktop/moviesapp/app/src/main/res/layout/activity_on_boarding.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Maxoyni/Desktop/moviesapp/app/src/main/res/layout/activity_users_request.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Maxoyni/Desktop/moviesapp/app/src/main/res/layout/bg_radius_corners.xml" value="0.12552083333333333" />
+        <entry key="..\:/Users/Maxoyni/Desktop/moviesapp/app/src/main/res/layout/content_main.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Maxoyni/Desktop/moviesapp/app/src/main/res/layout/content_users_request.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Maxoyni/Desktop/moviesapp/app/src/main/res/layout/found_item.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/Maxoyni/Desktop/moviesapp/app/src/main/res/layout/fragment_affiche.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Maxoyni/Desktop/moviesapp/app/src/main/res/layout/fragment_blank.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Maxoyni/Desktop/moviesapp/app/src/main/res/layout/fragment_dashboard.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Maxoyni/Desktop/moviesapp/app/src/main/res/layout/fragment_first.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Maxoyni/Desktop/moviesapp/app/src/main/res/layout/fragment_home.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Maxoyni/Desktop/moviesapp/app/src/main/res/layout/fragment_notifications.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Maxoyni/Desktop/moviesapp/app/src/main/res/layout/fragment_on_boarding_first.xml" value="0.25885416666666666" />
+        <entry key="..\:/Users/Maxoyni/Desktop/moviesapp/app/src/main/res/layout/fragment_on_boarding_second.xml" value="0.25885416666666666" />
+        <entry key="..\:/Users/Maxoyni/Desktop/moviesapp/app/src/main/res/layout/fragment_on_boarding_third.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Maxoyni/Desktop/moviesapp/app/src/main/res/layout/fragment_person.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Maxoyni/Desktop/moviesapp/app/src/main/res/layout/fragment_see_all_moviesfragment.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Maxoyni/Desktop/moviesapp/app/src/main/res/layout/fragment_see_all_persons.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Maxoyni/Desktop/moviesapp/app/src/main/res/layout/fragment_see_all_tv_series.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Maxoyni/Desktop/moviesapp/app/src/main/res/layout/fragment_web_movies.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Maxoyni/Desktop/moviesapp/app/src/main/res/layout/fragment_web_no_btn.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/Maxoyni/Desktop/moviesapp/app/src/main/res/layout/fragment_web_view.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Maxoyni/Desktop/moviesapp/app/src/main/res/layout/known_for_item.xml" value="0.271875" />
+        <entry key="..\:/Users/Maxoyni/Desktop/moviesapp/app/src/main/res/layout/layout_bg.xml" value="0.4775390625" />
+        <entry key="..\:/Users/Maxoyni/Desktop/moviesapp/app/src/main/res/layout/person_id.xml" value="0.271875" />
+        <entry key="..\:/Users/Maxoyni/Desktop/moviesapp/app/src/main/res/layout/saved_item_in_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Maxoyni/Desktop/moviesapp/app/src/main/res/layout/treding_item.xml" value="0.67" />
+        <entry key="..\:/Users/Maxoyni/Desktop/moviesapp/app/src/main/res/layout/trending_item_see_all_list.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Maxoyni/Desktop/moviesapp/app/src/main/res/layout/trending_item_see_all_persons.xml" value="0.4446022727272727" />
+        <entry key="..\:/Users/Maxoyni/Desktop/moviesapp/app/src/main/res/layout/trending_item_see_all_tv.xml" value="0.271875" />
+        <entry key="..\:/Users/Maxoyni/Desktop/moviesapp/app/src/main/res/menu/bottom_nav_menu.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Maxoyni/Desktop/testing2/moviesapp/app/src/main/res/drawable-v24/bg_corners_radius2.xml" value="0.2605" />
+        <entry key="..\:/Users/Maxoyni/Desktop/testing2/moviesapp/app/src/main/res/drawable-v24/bg_corners_radius3.xml" value="0.2605" />
+        <entry key="..\:/Users/Maxoyni/Desktop/testing2/moviesapp/app/src/main/res/drawable-v24/temporal_background.xml" value="0.2605" />
+        <entry key="..\:/Users/Maxoyni/Desktop/testing2/moviesapp/app/src/main/res/drawable-v24/temporal_bg_main_pic.xml" value="0.2605" />
+        <entry key="..\:/Users/Maxoyni/Desktop/testing2/moviesapp/app/src/main/res/drawable/bg_corners_radius.xml" value="0.2605" />
+        <entry key="..\:/Users/Maxoyni/Desktop/testing2/moviesapp/app/src/main/res/drawable/bg_for_rating.xml" value="0.2605" />
+        <entry key="..\:/Users/Maxoyni/Desktop/testing2/moviesapp/app/src/main/res/drawable/line_one.xml" value="0.2605" />
+        <entry key="..\:/Users/Maxoyni/Desktop/testing2/moviesapp/app/src/main/res/drawable/my_gradient_drawable.xml" value="0.2605" />
+        <entry key="..\:/Users/Maxoyni/Desktop/testing2/moviesapp/app/src/main/res/drawable/round_outline.xml" value="0.2605" />
+        <entry key="..\:/Users/Maxoyni/Desktop/testing2/moviesapp/app/src/main/res/font/noev.xml" value="0.3958333333333333" />
+        <entry key="..\:/Users/Maxoyni/Desktop/testing2/moviesapp/app/src/main/res/layout/activity_network_request.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Maxoyni/Desktop/testing2/moviesapp/app/src/main/res/layout/activity_on_boarding.xml" value="0.33" />
+        <entry key="..\:/Users/Maxoyni/Desktop/testing2/moviesapp/app/src/main/res/layout/content_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Maxoyni/Desktop/testing2/moviesapp/app/src/main/res/layout/content_on_boarding.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Maxoyni/Desktop/testing2/moviesapp/app/src/main/res/layout/found_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Maxoyni/Desktop/testing2/moviesapp/app/src/main/res/layout/fragment_affiche.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Maxoyni/Desktop/testing2/moviesapp/app/src/main/res/layout/fragment_dashboard.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Maxoyni/Desktop/testing2/moviesapp/app/src/main/res/layout/fragment_first.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Maxoyni/Desktop/testing2/moviesapp/app/src/main/res/layout/fragment_found.xml" value="0.33" />
+        <entry key="..\:/Users/Maxoyni/Desktop/testing2/moviesapp/app/src/main/res/layout/fragment_notifications.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Maxoyni/Desktop/testing2/moviesapp/app/src/main/res/layout/fragment_on_boarding_first.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Maxoyni/Desktop/testing2/moviesapp/app/src/main/res/layout/fragment_person.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Maxoyni/Desktop/testing2/moviesapp/app/src/main/res/layout/fragment_second.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Maxoyni/Desktop/testing2/moviesapp/app/src/main/res/layout/fragment_see_all_moviesfragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Maxoyni/Desktop/testing2/moviesapp/app/src/main/res/layout/fragment_see_all_persons.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Maxoyni/Desktop/testing2/moviesapp/app/src/main/res/layout/fragment_see_all_tv_series.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Maxoyni/Desktop/testing2/moviesapp/app/src/main/res/layout/fragment_third.xml" value="0.25" />
+        <entry key="..\:/Users/Maxoyni/Desktop/testing2/moviesapp/app/src/main/res/layout/fragment_web_movies.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Maxoyni/Desktop/testing2/moviesapp/app/src/main/res/layout/fragment_web_no_btn.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Maxoyni/Desktop/testing2/moviesapp/app/src/main/res/layout/fragment_web_view.xml" value="0.5" />
+        <entry key="..\:/Users/Maxoyni/Desktop/testing2/moviesapp/app/src/main/res/layout/known_for_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Maxoyni/Desktop/testing2/moviesapp/app/src/main/res/layout/person_id.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Maxoyni/Desktop/testing2/moviesapp/app/src/main/res/layout/saved_item_in_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Maxoyni/Desktop/testing2/moviesapp/app/src/main/res/layout/treding_item.xml" value="0.5" />
+        <entry key="..\:/Users/Maxoyni/Desktop/testing2/moviesapp/app/src/main/res/layout/trending_item_see_all_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Maxoyni/Desktop/testing2/moviesapp/app/src/main/res/layout/trending_item_see_all_persons.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Maxoyni/Desktop/testing2/moviesapp/app/src/main/res/layout/trending_item_see_all_tv.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Maxoyni/Desktop/testing2/moviesapp/app/src/main/res/menu/bottom_nav_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Maxoyni/Desktop/testing2/moviesapp/app/src/main/res/menu/menu_main.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

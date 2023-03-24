@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollview"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:scrollbarSize="4sp">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:scrollbarSize="4sp"
+        tools:context=".ui.networkrequestactivity.fragments.affiche.AfficheFragment">
+
+        <TextView
+            android:id="@+id/seeallmovies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/mintsansbold"
+            android:paddingEnd="5dp"
+            android:text="All"
+            android:textColor="#ffd829"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toStartOf="@+id/image_all_movies"
+            app:layout_constraintTop_toBottomOf="@+id/frameLayout5" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/trending_movies_recycler"
+            android:layout_width="0dp"
+            android:layout_height="325dp"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/seeallmovies" />
+
+        <TextView
+            android:id="@+id/seealltvseries"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:fontFamily="@font/mintsansbold"
+            android:paddingEnd="5dp"
+            android:text="All"
+            android:textAlignment="center"
+            android:textColor="#ffd829"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toStartOf="@+id/image_all_series"
+            app:layout_constraintTop_toBottomOf="@+id/trending_movies_recycler" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/trending_tv_recycler"
+            android:layout_width="0dp"
+            android:layout_height="325dp"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/seealltvseries" />
+
+        <TextView
+            android:id="@+id/popular_actors"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:fontFamily="@font/mintsansbold"
+            android:paddingEnd="5dp"
+            android:text="All"
+            android:textColor="#ffd829"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toStartOf="@+id/image_all_persons"
+            app:layout_constraintTop_toBottomOf="@+id/trending_tv_recycler" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/trending_actors"
+            android:layout_width="0dp"
+            android:layout_height="325dp"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/popular_actors">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+        <FrameLayout
+            android:id="@+id/frameLayout5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.facebook.shimmer.ShimmerFrameLayout
+                android:id="@+id/shimmer_view_container_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/image_slider"
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:background="@drawable/temporal_bg_main_pic"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <ImageView
+                    android:id="@+id/gradient_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="470dp"
+                    android:background="@drawable/my_gradient_drawable"
+                    app:srcCompat="@drawable/my_gradient_drawable" />
+
+            </com.facebook.shimmer.ShimmerFrameLayout>
+
+            <ImageView
+                android:id="@+id/image_slider2"
+                android:layout_width="0dp"
+                android:layout_height="500dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:srcCompat="@tools:sample/avatars" />
+
+
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="75dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/trending_actors"
+            app:srcCompat="@drawable/also_big_pic"
+            tools:srcCompat="@drawable/also_big_pic" />
+
+        <ImageView
+            android:id="@+id/image_all_movies"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="38dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/frameLayout5"
+            app:srcCompat="@drawable/icons8_next_page_100"
+            tools:srcCompat="@drawable/icons8_next_page_100" />
+
+        <ImageView
+            android:id="@+id/image_all_series"
+            android:layout_width="25dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/trending_movies_recycler"
+            app:srcCompat="@drawable/icons8_next_page_100"
+            tools:srcCompat="@drawable/icons8_next_page_100" />
+
+        <ImageView
+            android:id="@+id/image_all_persons"
+            android:layout_width="25dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/trending_tv_recycler"
+            app:srcCompat="@drawable/icons8_next_page_100"
+            tools:srcCompat="@drawable/icons8_next_page_100" />
+
+        <TextView
+            android:id="@+id/moives_title_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="120dp"
+            android:fontFamily="@font/mintsansbold"
+            android:text="New Movies"
+            android:textColor="#B1BCBE"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toStartOf="@+id/seeallmovies"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageView5"
+            app:layout_constraintTop_toBottomOf="@+id/frameLayout5" />
+
+        <TextView
+            android:id="@+id/new_tv_series"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginEnd="152dp"
+            android:fontFamily="@font/mintsansbold"
+            android:text="New TV Series"
+            android:textColor="#B1BCBE"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toStartOf="@+id/seealltvseries"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageView6"
+            app:layout_constraintTop_toBottomOf="@+id/trending_movies_recycler" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="38dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/frameLayout5"
+            app:srcCompat="@drawable/icons8_cinema_90"
+            tools:srcCompat="@drawable/icons8_cinema_90" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="40dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/trending_movies_recycler"
+            app:srcCompat="@drawable/icons8_tv_show_96"
+            tools:srcCompat="@drawable/icons8_tv_show_96" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="40dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/trending_tv_recycler"
+            app:srcCompat="@drawable/icons8_star_filled_100"
+            tools:srcCompat="@drawable/icons8_star_filled_100" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="45dp"
+            android:fontFamily="@font/mintsansbold"
+            android:text="Popular Actors"
+            android:textColor="#B1BCBE"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@+id/imageView9"
+            app:layout_constraintTop_toBottomOf="@+id/trending_tv_recycler" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="4dp"
+            android:fontFamily="@font/mintsansregular"
+            android:text="© All the data present in this application was collected hith the help of TMDB API"
+            android:textColor="#B1BCBE"
+            android:textSize="14sp"
+            android:lineSpacingExtra="2dp"
+            app:layout_constraintEnd_toStartOf="@+id/imageView3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/trending_actors" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

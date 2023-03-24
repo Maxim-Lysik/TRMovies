@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/icons8_film_reel_64"
+        android:popupTheme="@style/Theme.AppCompat.Light.NoActionBar"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:background="@color/yellow_boy"
+        android:icon="@drawable/icons8_search_643"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        android:title="@string/title_dashboard" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/icons8_glyph_96"
+        android:title="@string/title_notifications" />
+
+</menu>
