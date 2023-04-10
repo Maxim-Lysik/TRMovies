@@ -48,7 +48,7 @@ interface TMDBApi {
     // LOOKING FOR A REQUIRED MOVIE
 
 
-    // Test2
+    // Test3
 
     @GET("3/search/movie?api_key=${Constants.API_KEY_OUR}&language=en-US&query=blank&page=1&include_adult=false")
     suspend fun fetch_searched_movies(@Query("query") userId: String, @Query("page") page: Int): Response<ResultMoviesList>
