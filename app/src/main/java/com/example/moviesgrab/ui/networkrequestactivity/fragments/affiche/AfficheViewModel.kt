@@ -81,7 +81,7 @@ class AfficheViewModel @Inject constructor(
 
 
 
-
+// test12
 
 
     private val _text = MutableLiveData<String>().apply {
