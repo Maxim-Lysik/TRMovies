@@ -16,7 +16,6 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
-import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.swiperefreshlayout.widget.CircularProgressDrawable
 import com.bumptech.glide.Glide
@@ -326,7 +325,7 @@ mRecyclerView.addItemDecoration(new SpacesItemDecoration(spacingInPixels));
 
     } catch(e: NullPointerException) {}
 
-
+// test1
 
     }
 
